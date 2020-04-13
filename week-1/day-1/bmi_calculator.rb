@@ -1,4 +1,4 @@
-print "How much do you weitgh?"
+print "How much do you weight?"
 weight=Integer(gets.chomp)
 print "How tall are you?"
 height=Float(gets.chomp)
