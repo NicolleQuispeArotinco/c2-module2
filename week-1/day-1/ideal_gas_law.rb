@@ -1,9 +1,6 @@
 def calculate_pressure(chemical_amount, temperature, volume)
-    n=chemical_amount
     r=8.314
-    t=temperature
-    v=volume
-    p=(n*r*t)/v
+    p=(chemical_amount*r*temperature)/volume
     puts p
 end
 
