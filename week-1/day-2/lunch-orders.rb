@@ -19,7 +19,7 @@ def lunch_order(people_orders)
         dish_count[lunch]+=1
     end
     dish_count.each do |dish, count|
-        puts "#{dish} ==> #{count}"
+        puts "#{dish} -> #{count}"
     end
 end
 lunch_order(people_orders)
