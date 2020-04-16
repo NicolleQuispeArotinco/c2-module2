@@ -21,7 +21,7 @@ when 'add'
         contact_book[contact] = number
         puts "New contact added: #{contact} - #{number}."
     else
-        puts "That contact already exists! The number is #{contact_book[contact]}."
+        puts "That contact already exists!"
     end
 when 'update'
     puts "What contact do you want to update?"
