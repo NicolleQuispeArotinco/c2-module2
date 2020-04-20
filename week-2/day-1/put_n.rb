@@ -9,5 +9,4 @@ def put_n(text, times_to_print)
 end
 
 put_n("This will be printed 5 times!", 5)
-#put_n("This will be printed 5 times!", 0.2)
 put_n("This will be printed 5 times!", -2)
