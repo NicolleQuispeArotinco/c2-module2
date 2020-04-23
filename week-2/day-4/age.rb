@@ -1,9 +1,9 @@
 require 'date'
 def age?(year, month,day)
   birthday = Date.new(year, month, day)
-  todayy = Date.today
-  age = todayy.year - birthday.year
-  if birthday.month > todayy.month || ( birthday.day < todayy.day && birthday.month == todayy.month)
+  today = Date.today
+  age = today.year - birthday.year
+  if birthday.month > today.month || ( birthday.day < today.day && birthday.month == today.month)
     dife = 1
   else
     dife = 0
